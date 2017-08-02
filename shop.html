@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车 - 网易严选</title>
+    
+    <link rel="stylesheet" href="./static/css/normalize.css">
+    <link rel="stylesheet" href="./static/css/shop.css">
+
+</head>
+<body>
+    <!--头部-->
+    <header id="gtopbar">
+        <div id="sitenav">
+            <div class="grow">
+                <p class="declare">好的生活，没那么贵</p>
+                  <div class="notice">
+                    <a class="a" href="" >美食节招行Apple Pay支付满88再...</a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">登录</a></li>
+                        <li><a href="#">注册</a></li>
+                        <div class="split"></div>
+                        <li><a href="#">严选态度</a></li>
+                        <div class="split"></div>
+                        <li><a href="#">企业采购</a></li>
+                        <div class="split"></div>
+                        <li><a href="#">
+                            <span>客户服务
+                            <i class="arrow"></i>
+                            </span>
+
+                        </a></li>
+                        <div class="split sp"></div>
+                        <li><a href="#">
+                            <i class="tel"></i>
+                            <span>下载APP</span>
+                        </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+    <!--logo开始-->
+    <div id="wrap">
+        <div class="w clearfix">
+            <div class="logo">
+                <a href="" title="网易严选"></a>
+            </div>
+            <div id="search">
+                <!--搜索框-->
+                <input type="search" name="search" style="border:none;border-bottom:1px solid #d8cebc;
+    " placeholder="慕思同款乳胶床垫2折价">
+                <i class="searchlogo"><a href=""></a></i>
+                <!--购物车-->
+                <i class="shopcar"><a href=""></a></i>
+            </div>
+        </div>
+
+    </div>
+    <!--商品导航-->
+    <div id="navlist">
+        <div class="container">
+            <ul class="list">
+                <li class="active"><a href="./index.html">首页</a></li>
+                <li><a href="./detail.html">居家</a></li>
+                <li><a href="#">餐厨</a></li>
+                <li><a href="#">配件</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">洗护</a></li>
+                <li><a href="">婴童</a></li>
+                <li><a href="">杂货</a></li>
+                <li><a href="">饮食</a></li>
+                <li><a href="">志趣</a></li>
+                <li class="b">
+                    <a href="" >专题</a>
+                </li>
+                <li><a href="">甄专家</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div id="cartPage">
+        <div class="c-grow">
+           <table id="table"  >
+                <thead>
+                   <tr class="tableBox b1" background="#f5f5f5">
+                       <th class="box w1" >
+                           <label ><input type="checkbox" style="visibility: hidden;">&nbsp;&nbsp;全选</label>
+                       </th>
+                       <th class="box w2">商品信息</th>
+                       <th class="box w3" >单价</th>
+                       <th class="box w4">数量</th>
+                       <th class="box w5">小计</th>
+                       <th class="box w6">活动</th>
+                       <th></th>
+                   </tr>
+                </thead>
+               <tbody>
+               <!--商品价格介绍-->
+                <!--第一个商品-->
+               <tr class="tableBox1 tb1" >
+                        <td>
+                            <input class="select" type="checkbox">
+                            <img src="./static/imgsshop/s1.png"  alt="韩式帆布电脑双肩包">
+
+                        </td>
+                        <td>
+                            <a href="">
+                                <!--<img src="./static/imgsshop/s1.png"  alt="韩式帆布电脑双肩包">-->
+                                <p class="intro">韩式帆布电脑双肩包</p>
+                            </a>
+                        </td>
+                        <td><p class="solidMoney">199.00</p></td>
+                        <td>
+                            <div class="selNum">
+                                <span class="less">
+                                    -
+                                </span>
+                                <input type="text" class="num" value="1">
+                                <span class="plus">
+                                   +
+                                </span>
+                            </div>
+                        </td>
+                        <td style="color:#d4282d;" class="td">
+                            <p class="currMoney">199.00</p></td>
+                        <td></td>
+                        <td class="delete">删除</td>
+                    </tr>
+                <!--第二个商品-->
+               <tr class="tableBox1">
+                   <td>
+                       <input class="select" type="checkbox">
+                       <img src="./static/imgsshop/s2.png"  alt="韩式帆布电脑双肩包">
+
+                   </td>
+                   <td>
+                       <a href="">
+                           <p class="intro">色织华夫格夏凉被</p>
+                       </a>
+                   </td>
+                   <td><p class="solidMoney">299.00</p></td>
+                   <td class="td">
+                       <div class="selNum">
+                                <span class="less">
+                                    -
+                                </span>
+                           <input type="text" class="num"  value="1">
+                           <span class="plus">
+                                   +
+                                </span>
+                       </div>
+                   </td>
+                   <td style="color:#d4282d;"><p class="currMoney">299.00</p></td>
+                   <td></td>
+                   <td class="delete">删除</td>
+               </tr>
+               <!--第三个商品-->
+               <tr class="tableBox1">
+                   <td>
+                       <input class="select" type="checkbox" name="like[]">
+                       <img src="./static/imgsshop/s3.png"  alt="韩式帆布电脑双肩包">
+
+                   </td>
+                   <td>
+                       <a href="">
+                           <!--<img src="./static/imgsshop/s1.png"  alt="韩式帆布电脑双肩包">-->
+                           <p class="intro">泡泡纱可水洗夏凉被</p>
+                       </a>
+                   </td>
+                   <td><p class="solidMoney">299.00</p></td>
+                   <td>
+                       <div class="selNum">
+                                <span class="less">
+                                    -
+                                </span>
+                           <input type="text" class="num" value="1">
+                           <span class="plus">
+                                   +
+                                </span>
+                       </div>
+                   </td>
+                   <td style="color:#d4282d;"><p class="currMoney">399.00</p></td>
+                   <td></td>
+                   <td class="delete">删除</td>
+               </tr>
+               <tr class="tableBox1">
+                   <td>
+                       <input class="select" type="checkbox" name="like[]">
+                       <img src="./static/imgsshop/s3.png"  alt="韩式帆布电脑双肩包">
+
+                   </td>
+                   <td>
+                       <a href="">
+                           <!--<img src="./static/imgsshop/s1.png"  alt="韩式帆布电脑双肩包">-->
+                           <p class="intro">泡泡纱可水洗夏凉被</p>
+                       </a>
+                   </td>
+                   <td><p class="solidMoney">399.00</p></td>
+                   <td>
+                       <div class="selNum">
+                                <span class="less">
+                                    -
+                                </span>
+                           <input type="text" class="num" value="1">
+                           <span class="plus">
+                                   +
+                                </span>
+                       </div>
+                   </td>
+                   <td style="color:#d4282d;">
+                       <p class="currMoney">399.00</p></td>
+                   <td></td>
+                   <td class="delete">删除</td>
+               </tr>
+               <tr class="tableBox1">
+                   <td>
+                       <input class="select" type="checkbox" name="like[]">
+                       <img src="./static/imgsshop/s3.png"  alt="韩式帆布电脑双肩包">
+
+                   </td>
+                   <td>
+                       <a href="">
+
+                           <p class="intro">泡泡纱可水洗夏凉被</p>
+                       </a>
+                   </td>
+                   <td ><p class="solidMoney">399.00</td>
+                   <td>
+                       <div class="selNum">
+                                <span class="less">
+                                    -
+                                </span>
+                           <input type="text" class="num" value="1">
+                           <span class="plus">
+                                   +
+                                </span>
+                       </div>
+                   </td>
+                   <td style="color:#d4282d;"><p class="currMoney">399.00</p></td>
+                   <td></td>
+                   <td class="delete">删除</td>
+               </tr>
+               <!--end-->
+               </tbody>
+           </table>
+            <!--结算开始-->
+            <!--反选、全选-->
+                <div class="cart-total" id="cartTotal">
+                   <div class="w-box">
+                       <button class="all">全选</button>
+                       <button class="allno">全不选</button>
+                       <button class="anti">反选</button>
+                   </div>
+                    <!--下单-->
+                    <div class="intro">
+                        <button class="w-btn">下单</button>
+                    </div>
+                    <!--价格-->
+                    <div class="tip">
+                        <span class="con">商品合计：</span>
+                        <span>￥<span class="setMoney">0.00</span></span>
+                        <span class="m-set">应付总额：</span>
+                        <span >￥<span class="setMoney">0.00</span></span>
+                    </div>
+                </div>
+            <!--end-->
+          </div>
+    </div>
+<!--end-->
+    <div id="recommend">
+        <div class="r-grow">
+            <ul class="itemList">
+                <li class="item">
+                    <div class="productList">
+                        <div class="hd">
+                            <img title="日式蓬软太鼓抱枕" alt="日式蓬软太鼓抱枕" src="./static/imgs/j2.png">
+                            <!--<span class="colorNum">8中颜色</span>-->
+                        </div>
+                        <div class="bd">
+                            <a class="name" href="">
+                                男式基础纯棉圆领T恤
+                            </a>
+                            <span class="price">¥29
+                                <p class="addSale">加入购物车</p>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="productList">
+                        <div class="hd">
+                            <img title="纯棉水洗色织格夏凉被" alt="纯棉水洗色织格夏凉被" src="./static/imgs/j9.png">
+                            <!--<span class="colorNum">8中颜色</span>-->
+                        </div>
+                        <div class="bd">
+                            <a class="name" href="">
+                                男纯棉水洗色织格夏凉被
+                            </a>
+                            <span class="price">¥129
+                                   <p class="addSale">加入购物车</p>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="productList">
+                        <div class="hd">
+                            <img title="安睡慢回弹记忆绵床垫" alt="安睡慢回弹记忆绵床垫" src="./static/imgs/j4.png">
+                            <!--<span class="colorNum">8中颜色</span>-->
+                        </div>
+                        <div class="bd">
+                            <a class="name" href="">
+                                安睡慢回弹记忆绵床垫
+                            </a>
+                            <span class="price">¥229
+                                   <p class="addSale">加入购物车</p>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="productList">
+                        <div class="hd">
+                            <img title="全棉贡缎纯色床单" alt="全棉贡缎纯色床单" src="./static/imgs/j5.png">
+                            <!--<span class="colorNum">8中颜色</span>-->
+                        </div>
+                        <div class="bd">
+                            <a class="name" href="">
+                                全棉贡缎纯色床单
+                            </a>
+                            <span class="price">¥99
+                                   <p class="addSale">加入购物车</p>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--底部-->
+    <div id="footer">
+        <div class="wrap">
+            <div class="m-f1">
+                <div class="item">
+                    <div class="m-serviceTel">
+                        <h4 class="hd">客服电话</h4>
+                        <p class="phone">400-0368-163</p>
+                        <p class="datetime">9:00-22:00</p>
+                        <a class="w-button"  href="">用户反馈</a>
+                        <a class="w-button" href="">在线客服</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="m-whatIsYX">
+                        <h4 class="hd">何为严选</h4>
+                        <p class="desc">
+                            网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品
+                        </p>
+                        <div class="followUs">
+                            <p class="title">关注我们&nbsp;:</p>
+                            <div class="shopList">
+                                <div class="yinxin link"></div>
+                                <div class="webchat link"></div>
+                                <div class="weibo link"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="m-ftAppDownload">
+                        <h4 class="hd">扫码下载严选APP</h4>
+                        <div class="m-qrcode j-qrcode">
+                            <img style="width: 104px; height: 104px;"src="./static/imgs/canvas.png" alt="扫码下载严选APP">
+                        </div>
+                        <div class="tip">首单立减8元</div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-f2">
+                <div class="g-row">
+                    <ul class="top">
+                        <li class="item">
+                            <i class="icon ft1"></i>
+                            <p class="text">30天无忧退货</p>
+                        </li>
+                        <li class="item">
+                            <i class="icon ft2"></i>
+                            <p class="text">满88元免邮费</p>
+                        </li>
+                        <li class="item">
+                            <i class="icon ft3"></i>
+                            <p class="text">网易品质保证</p>
+                        </li>
+                    </ul>
+                    <hr style="  display:block; height:1px; width:1090px;margin: 30px auto 0 100px; background-color:#4f4f4f;
+    border:none;">
+                    <div class="m-siteInfo">
+                        <div class="nav">
+                            <a class="text" href="">关于我们</a>
+                            <b class="split">|</b>
+                            <a class="text" href="">帮助中心</a>
+                            <b class="split">|</b>
+                            <a class="text" href="">售后服务</a>
+                            <b class="split">|</b>
+                            <a class="text" href="">配送与验收</a>
+                            <b class="split">|</b>
+                            <a class="text" href="">商务合作</a>
+                            <b class="split">|</b>
+                            <a class="text" href="">企业采购</a>
+                            <b class="split">|</b>
+                            <a class="text" href="">友情链接</a>
+                        </div>
+                        <p class="copyright">
+                            网易公司版权所有 © 1997-2017 &nbsp; 食品经营许可证：JY13301080111719
+                        </p>
+                        <a class="businessAdmin" href="" target="_blank">
+                            <img alt="" src="./static/imgs/gong.gif">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--吸底导航-->
+
+    <div class="cartNav" id="cartNav">
+        <div class="w-box">
+            <button class="all">全选</button>
+            <button class="allno">不全选</button>
+            <button class="anti">反选</button>
+        </div>
+        <!--下单-->
+        <div class="intro">
+            <button class="w-btn">下单</button>
+        </div>
+        <!--价格-->
+        <div class="tip">
+            <span class="con">商品合计：</span>
+            <span class="setMoney">￥0.00</span>
+            <span class="m-set">应付总额：</span>
+            <span class="setMoney">￥0.00</span>
+        </div>
+    </div>
+    <!--end-->
+    <script src="./static/jquery/jquery-1.11.2.min.js"></script>
+    <script src="./static/jquery/jqeasing.js"></script>
+    <script src="./static/jquery/Calculation.js"></script>
+    <script src="./static/js/shop.js"></script>
+</body>
+</html>
